@@ -10,6 +10,7 @@
 /sbx/ros2/install/articubot_one/share/articubot_one/config/map.rviz
 /sbx/ros2/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
 /sbx/ros2/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+/sbx/ros2/install/articubot_one/share/articubot_one/config/my_controllers.yaml.backup
 /sbx/ros2/install/articubot_one/share/articubot_one/config/nav2_params.yaml
 /sbx/ros2/install/articubot_one/share/articubot_one/config/twist_mux.yaml
 /sbx/ros2/install/articubot_one/share/articubot_one/config/view_bot.rviz
