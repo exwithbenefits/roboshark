@@ -1,0 +1,1 @@
+/sbx/ros2/src/articubot_one/launch/real_mapping.launch.py

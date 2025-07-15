@@ -1,0 +1,5 @@
+cd /sbx/ros2
+rm -rf build install log
+source /opt/ros/humble/setup.bash
+colcon build --symlink-install
+source /sbx/ros2/install/setup.bash

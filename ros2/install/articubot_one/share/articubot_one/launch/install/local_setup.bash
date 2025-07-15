@@ -1,0 +1,1 @@
+/sbx/ros2/src/articubot_one/launch/install/local_setup.bash

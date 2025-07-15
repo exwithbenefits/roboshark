@@ -1,0 +1,101 @@
+[0.017s] Invoking command in '/sbx/ros2/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /sbx/ros2/src/articubot_one -DCMAKE_INSTALL_PREFIX=/sbx/ros2/install/articubot_one
+[0.098s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.274s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.297s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.408s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.426s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.429s] -- Added test 'lint_cmake' to check CMake code style
+[0.430s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.439s] -- Added test 'xmllint' to check XML markup files
+[0.441s] -- Configuring done
+[0.447s] -- Generating done
+[0.450s] -- Build files have been written to: /sbx/ros2/build/articubot_one
+[0.458s] Invoked command in '/sbx/ros2/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /sbx/ros2/src/articubot_one -DCMAKE_INSTALL_PREFIX=/sbx/ros2/install/articubot_one
+[0.460s] Invoking command in '/sbx/ros2/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /sbx/ros2/build/articubot_one -- -j4 -l4
+[0.530s] Invoked command in '/sbx/ros2/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /sbx/ros2/build/articubot_one -- -j4 -l4
+[0.549s] Invoking command in '/sbx/ros2/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /sbx/ros2/build/articubot_one
+[0.562s] -- Install configuration: ""
+[0.563s] -- Execute custom install script
+[0.563s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[0.564s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[0.564s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/config/cyclone.xml
+[0.580s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[0.580s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.580s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[0.580s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[0.580s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/joystick.yaml
+[0.580s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/main.rviz
+[0.580s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/map.rviz
+[0.580s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[0.580s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[0.581s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[0.581s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[0.581s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[0.581s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/description/camera.xacro
+[0.581s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[0.581s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/description/face.xacro
+[0.582s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[0.582s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[0.582s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/description/lidar.xacro
+[0.582s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[0.582s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[0.582s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[0.583s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.583s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.583s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.583s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.583s] Call Stack (most recent call first):
+[0.583s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.583s]   cmake_install.cmake:46 (include)
+[0.583s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.583s] [0m
+[0.583s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[0.584s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/build/.built_by
+[0.601s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/build/COLCON_IGNORE
+[0.617s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[0.617s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/install/.colcon_install_layout
+[0.634s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/install/COLCON_IGNORE
+[0.650s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/install/_local_setup_util_ps1.py
+[0.666s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/install/_local_setup_util_sh.py
+[0.682s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/install/local_setup.bash
+[0.697s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/install/local_setup.ps1
+[0.713s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/install/local_setup.sh
+[0.728s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/install/local_setup.zsh
+[0.744s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/install/setup.bash
+[0.760s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/install/setup.ps1
+[0.777s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/install/setup.sh
+[0.793s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/install/setup.zsh
+[0.808s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[0.808s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[0.808s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[0.809s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[0.809s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/log/COLCON_IGNORE
+[0.826s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/log/build_2025-05-07_00-41-40/events.log
+[0.841s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/log/build_2025-05-07_00-41-40/logger_all.log
+[0.858s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/log/latest/events.log
+[0.873s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/log/latest/logger_all.log
+[0.889s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/log/latest_build/events.log
+[0.905s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/log/latest_build/logger_all.log
+[0.922s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[0.922s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[0.922s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/launch/real_mapping.launch.py
+[0.939s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[0.939s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[0.939s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/worlds/empty.world
+[0.939s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[0.946s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.947s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.947s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.947s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.947s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/environment/path.sh
+[0.948s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.948s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/local_setup.bash
+[0.948s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/local_setup.sh
+[0.948s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.948s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.948s] -- Symlinking: /sbx/ros2/install/articubot_one/share/articubot_one/package.dsv
+[0.967s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.967s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.967s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.967s] -- Up-to-date symlink: /sbx/ros2/install/articubot_one/share/articubot_one/package.xml
+[0.971s] Invoked command in '/sbx/ros2/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /sbx/ros2/build/articubot_one

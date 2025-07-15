@@ -1,0 +1,6 @@
+Invoking command in '/sbx/ros2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /sbx/ros2/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/sbx/ros2/install/serial
+Invoked command in '/sbx/ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /sbx/ros2/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/sbx/ros2/install/serial
+Invoking command in '/sbx/ros2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /sbx/ros2/build/serial -- -j4 -l4
+Invoked command in '/sbx/ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /sbx/ros2/build/serial -- -j4 -l4
+Invoking command in '/sbx/ros2/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /sbx/ros2/build/serial
+Invoked command in '/sbx/ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /sbx/ros2/build/serial
